@@ -1,0 +1,34 @@
+# Build
+build/
+cmake-build-*/
+out/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Datos OSM (pueden ser muy grandes)
+data/*.pbf
+data/*.osm
+data/*.osm.bz2
+
+# Compiladores
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+
+# IDEs
+.vscode/
+.idea/
+*.user
+*.suo
+.clangd/
+compile_commands.json
